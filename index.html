@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit-icons.min.js"></script>
+    <title>NILE</title>
+</head>
+<body>
+
+    <script>
+        $(function() {
+		$('.pop').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');   
+		});		
+});
+    </script>
+    <!-- <div class="wrapper"> -->
+        <!-- <header>
+            <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+              <div class="container-fluid">
+                <div class="navbar-wrapper">
+                  <a class="navbar-brand header-logo-nile" href="/en">
+                    <img src="image/nile-logo.png" width="120"/>
+            </a>    </div>
+                <div class="d-flex header-contents">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">
+                        
+                    </span>
+                    <span class="navbar-toggler-icon icon-bar"></span>
+                    <span class="navbar-toggler-icon icon-bar"></span>
+                    <span class="navbar-toggler-icon icon-bar"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end"></div>
+                </div>
+              </div>
+            </nav>
+            </header>
+            <div id="bookmark_modal" class="modal fade" tabindex="-1"></div>
+            <div id="offer_modal" class="modal fade" tabindex="-1"></div>
+            <script>
+            $(function () {
+              $('.dropdown-toggle').dropdown();
+            });
+            </script> -->
+    
+          <div class="jumbotron">
+              <div class="container">
+                <div class="inner col-lg-4 col-md-6 col-sm-8 col-8 text-center">
+                    <h1><img src="image/nile-logo.png" alt="NILE" class="img-fluid"></h1>
+                    <!-- <h5>ONLINE B2B Matching Service</h5> -->
+                    <h4>How to Use This Service</h4>
+                </div>
+              </div>
+          </div>
+    
+          <section>
+              <div class="container">
+                <div class="item col-lg-10 offset-lg-1 col-md-10 offset-md-1" id="block1">
+                    <h5>1. REGISTER</h5>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5 text-center">
+                            <img src="image/img01.png" alt="Register" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                            <ul>
+                                <li>Select your role (Viewer, Exhibitor, Negotiator)</li>
+                                <li>Put in your e-mail and create a password (at least 8 characters and 1 uppercase letter) and hit the Submit button.</li>
+                                <li>If you register as a Viewer, you can view without verifications, but you will be unable to use all functions.</li>
+                                <!-- <li>Once you register as a Viewer, you can upgrade to Exhibitor Company or to Negotiator Company under "PROFILE" in the dashboard.  You will be notified by the NILE administrator when you are able to upgrade.</li> -->
+                                <li>If you are registering as either Negotiator or Exhibitor, you will need to register your e-mail, create a password (at least 8 characters and 1 uppercase letter) and <strong>also need to input the company information</strong>.</li>
+                                <li>Verification email will be sent.  Make sure to confirm the email.</li>
+                            </ul>
+                            <div class="row px-5 mb-3">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/001.png" alt="NILE Sign up"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/001-mail.png" alt="NILE Sign up"></a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-lg-10 offset-lg-1 col-md-10 offset-md-1" id="block2">
+                    <h5>2. BROWSE</h5>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5 text-center">
+                            <img src="image/img02.png" alt="BROWSE" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                            <ul>
+                                <li>You can browse product/company/article posts from the navigation panel.</li>
+                                
+                                
+                            </ul>
+                            <div class="row px-5 mb-3">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/002-browse-nav.png" alt="NILE Sign up"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/002-browse-articles.png" alt="NILE Sign up"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-lg-10 offset-lg-1 col-md-10 offset-md-1" id="block3">
+                    <h5>3. VIEW/MEET</h5>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5 text-center">
+                            <img src="image/img03.png" alt="VIEW/MEET" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                            <ul>
+                                <li>By browsing the posts, you can add articles to your favorites, as the <i class="fas fa-heart"></i> will indicate that you have added.</li>
+                                <li>By reading the post (articles, product, company), you can request a "meet" by clicking the REQUEST button.</li>
+                                <!-- <li>If you register as a Viwer, you can view without verifications, but you will be unable to use all functions.</li> -->
+                                <li>The Offer pop-up with a message will be displayed.</li>
+                                
+                            </ul>
+                            <div class="row px-5 mb-3">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/004-view-meet-heart.png" alt="NILE Sign up"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/004-request.png" alt="NILE Sign up"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-lg-10 offset-lg-1 col-md-10 offset-md-1" id="block4">
+                    <h5>4. MATCH</h5>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5 text-center">
+                            <img src="image/img04.png" alt="Match" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                            <ul>
+                                <li>You can either <em>OFFER</em> or <span>FORCE</span> a meet.  If you choose to <em>OFFER</em>, you will use one NILE ticket, and if you want to <span>FORCE</span> a match, you will use 3 tickets.</li>
+                                <li>The company will be notified of your request, and when the match is made, you will be able to chat and be able to do a business with the company.</li>
+                                <!-- <li>Verification email will be sent.  Make sure to confirm the email.</li> -->
+                                <!-- <li>If you register as a Viwer, you can view without verifications, but you will be unable to use all functions.</li> -->
+                                
+                                
+                            </ul>
+                            <div class="row px-5 mb-3">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/004-view-pop-up.png" alt="NILE Sign up"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/screen-shot.png" alt="NILE Sign up"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-lg-10 offset-lg-1 col-md-10 offset-md-1" id="block5">
+                    <h5>5. CHAT</h5>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5 text-center" >
+                            <img src="image/img05.png" alt="Chat" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                            <ul>
+                                <li>After the company accepts your request, you can chat about business deals, products, etc from Chat function on the dashboard.</li>
+                                <li>You can use emojis and also message stickers in the chat function.</li>
+                            </ul>
+                            <div class="row px-5 mb-3">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/005-chat.png" alt="NILE Sign up"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <a href="#" class="pop"><img src="image/005-chat2.png" alt="NILE Sign up"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+
+          <section>
+
+            
+
+            <div class="container">
+                <h2>How to Use DASHBOARD</h2>
+            </div>
+                
+          </section>
+    
+    
+          <section>
+            <div class="features col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
+                <h2><span>Features</span></h2>
+                <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2">
+                    <!-- <table class="uk-table uk-table-middle uk-table-divider">
+                        <thead>
+                            <th>
+                                
+                            </th>
+                            <th class="header">
+                                <p>Viewer</p>
+                            </th>
+                            <th class="header">
+                                <p>Negotiator</p>
+                            </th>
+                            <th class="header">
+                                <p>Exhibitor</p>
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="row-head">Input Items</td>
+                                <td><p>e-mail address<br>password</p></td>
+                                <td><p>e-mail address<br>password<br>Company Info</p></td>
+                                <td><p>e-mail address<br>password<br>Company Info</p></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">Mail Validation</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">Evaluation</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+
+                        </tbody>
+                    </table> -->
+                    <div class="comparison-table">
+                        <h1 class="text-center display-4"></h1>
+                  
+                        <div class="row" id="heading">
+                            <div class="title top"></div>
+                            <div class="header-title">Viewer</div>
+                            <div class="header-title">Negotiator</div>
+                            <div class="header-title">Exhibitor</div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">Input Items</div>
+                            <div class="inf-area">
+                                <p>email address<br>password</p>
+                            </div>
+                            <div class="inf-area"><p>email address<br>password<br>company info</p></div>
+                            <div class="inf-area"><p>email address<br>password<br>company info</p></div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">Mail Validation</div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">Evaluation</div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+                <hr>
+
+                <h2><span>Additional Features</span></h2>
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+
+                    
+
+                    <!-- <table class="uk-table uk-table-middle uk-table-divider">
+                        <thead>
+                            <th>
+                            </th>
+                            <th class="header">
+                                <p>Viewer</p>
+                            </th>
+                            <th class="header">
+                                <p>Negotiator</p>
+                            </th>
+                            <th class="header">
+                                <p>Exhibitor</p>
+                            </th>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td class="row-head">Dashboard</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">Company Registration</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">View Company/Products/Article Info</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">Search Company</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">Negotation Chat</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i><p>(Initially Free)</p></td>
+                                <td><i class="fas fa-check"></i><p>(Initially Free)</p></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">Post Company Information</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">Post Products/Articles</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">Advertising</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="row-head">Exhibitor Fee</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+
+                    <div class="comparison-table">
+                        <h1 class="text-center display-4"></h1>
+                  
+                        <div class="row" id="heading">
+                            <div class="title top"></div>
+                            <div class="header-title">Viewer</div>
+                            <div class="header-title">Negotiator</div>
+                            <div class="header-title">Exhibitor</div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">DASHBOARD</div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">Company Registration</div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">VIEW COMPANY/PRODUCTS/ARTICLE INFO</div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">SEARCH COMPANY</div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                        <div class="row">
+                            <div class="title">NEGOTATION CHAT</div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">POST COMPANY INFORMATION</div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">POST PRODUCTS/ARTICLES</div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="title">ADVERTISING</div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="title">Exhibitor Fee</div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-times"></i></div>
+                            <div class="inf-area"><i class="fas fa-check"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+
+
+
+                <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span>
+                                    <span class="sr-only">Close</span>
+                                </button>
+                                <img src="" class="imagepreview img-fluid" alt="画像">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                
+            </div>
+          </section>
+
+
+          
+        
+    </div> 
+
+    <!-- <h1>test</h1> -->
+
+    <footer class="footer">
+        <div class="copyright text-right">
+          <a href="/en/public_messages">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT
+      </a>    <br>
+          <a href="/en/privacy_policy">
+            Privacy &amp; Policy
+      </a>    &nbsp;&nbsp;
+          <a href="/en/terms">
+            Terms of Service
+      </a>    <br>
+          © 2021 INVADE Co., Ltd.  
+        </div>
+      </footer>
+      
+</body>
+</html>
